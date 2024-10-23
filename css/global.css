@@ -26,5 +26,13 @@ body {
     display: flex;
     gap: 3rem;
     margin-top: 1rem;
+}
 
+.ui_container_navigation {
+    width: 1440;
+    height: 500;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    height: 80vh;
+    border-radius: 5px;
 }

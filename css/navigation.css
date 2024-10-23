@@ -1,0 +1,40 @@
+#nav_1 {
+    background-color: var(--light-bg-color);
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    justify-content: space-between;
+    color: black;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+#nav_1_link_list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_1_link_list > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#nav_1_logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.nav_modification {
+    width: 140px;
+    height: 40px;
+    align-self: center;
+}
+
+#nav_1_action_container {
+    display: flex;
+}
