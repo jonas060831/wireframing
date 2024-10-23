@@ -33,3 +33,13 @@
     border: 1px solid black;
     border-radius: 100vw;
 }
+
+.hero_2 {
+    height: 700px;
+    color: var(--light-font-color);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
