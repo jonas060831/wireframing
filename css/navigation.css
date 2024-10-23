@@ -1,4 +1,4 @@
-#nav_1 {
+.nav_1 {
     background-color: var(--light-bg-color);
     display: flex;
     flex-direction: row;
@@ -13,7 +13,9 @@
     flex-direction: row;
     gap: 1rem;
     list-style-type: none;
+    justify-content: center;
     align-items: center;
+    height: 30px;
     justify-content: center;
 }
 
@@ -37,4 +39,16 @@
 
 #nav_1_action_container {
     display: flex;
+}
+
+/* the only difference is the center one */
+
+#nav_2_link_list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin-right: 2rem;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
 }
