@@ -2,6 +2,7 @@
     width: 270px;
     height: 436px;
     color: var(--light-font-color);
+    cursor: pointer;
 }
 
 #card_blog_1_image_container {
@@ -36,10 +37,16 @@
 }
 #card_blog_1_description_see_more {
     font-size: smaller;
-    padding-left: 2rem;
+    margin-left: 2rem;
     display: flex;
     align-items: center;
     gap: 0.3rem;
+    width: 67px;
+}
+
+#card_blog_1_description_see_more:hover {
+    text-decoration: underline;
+    color: grey;
 }
 
 #chevron_right {
@@ -53,6 +60,7 @@
  height: 420px;
  border: 1px solid var(--light-border-color);
  text-align: center;
+ line-height: 0.9rem;
 }
 
 #card_blog_2_image {
@@ -63,6 +71,7 @@
     border: none;
     margin: 0px auto;
     margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 #title_header {
@@ -71,11 +80,42 @@
     color: var(--light-font-color);
 }
 
+#header_section p{
+    color: var(--light-font-color);
+}
+
 /* i added a class mod1 to make the button height shorter */
 .mod1 {
     height: 40px;
 }
 
-#header_section {
-    
+#card_blog_3 {
+    width: 370px;
+    height: 502px;
+    color: black;
+    cursor: pointer;
+}
+
+#card_blog_3:hover {
+    box-shadow: 3px 4px 6px 20px rgba(0, 0, 0, 0.031);
+    border-radius: 10px;
+}
+
+#card_blog_3_image_container {
+    width: 370px;
+    height: 370px;
+    background-color: var(--dark-bg-color);
+}
+
+.details_container > p {
+    font-size: x-large;
+}
+.details_container > span {
+    font-size: smaller;
+}
+
+.details_container > span:hover {
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
 }
