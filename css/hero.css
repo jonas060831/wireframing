@@ -2,16 +2,17 @@
     height: 700px;
     color: var(--light-font-color);
     display: flex;
-    padding: 10rem;
     gap: 3rem;
-    flex: 200px 1fr;
+    align-items: center;
+    justify-content: center;
 }
 
 #hero_header_container {
-    background-color: red;
+    width: 422px;
+    height: 357px
 }
 #hero_header_container > span{
-    font-size: 300%;
+    font-size: 350%;
     font-weight: 400;
 }
 
@@ -19,4 +20,15 @@
     width: 670px;
     height: 480px;
     background-color: white;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+
+.hero_image_container_indicator {
+    height: 12px;
+    width: 12px;
+    border: 1px solid black;
+    border-radius: 100vw;
 }
