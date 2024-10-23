@@ -36,3 +36,12 @@ body {
     height: 80vh;
     border-radius: 5px;
 }
+
+.ui_container_hero {
+    width: 1440;
+    height: 500;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    height: 80vh;
+    border-radius: 5px;
+}

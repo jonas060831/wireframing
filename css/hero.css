@@ -1,0 +1,22 @@
+.hero_1 {
+    height: 700px;
+    color: var(--light-font-color);
+    display: flex;
+    padding: 10rem;
+    gap: 3rem;
+    flex: 200px 1fr;
+}
+
+#hero_header_container {
+    background-color: red;
+}
+#hero_header_container > span{
+    font-size: 300%;
+    font-weight: 400;
+}
+
+.hero_image_container {
+    width: 670px;
+    height: 480px;
+    background-color: white;
+}
