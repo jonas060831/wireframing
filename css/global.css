@@ -5,7 +5,7 @@
     --dark-font-color: white;
     --light-bg-color: white;
     --dark-bg-color: black;
-    --light-border-color: black
+    --light-border-color: black;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 .ui_container {
     margin-top: 10px;
-    background-color: white;
+    background-color: #f2f2f2;
     height: 80vh;
     padding: 2rem 4rem;
     border-radius: 5px;

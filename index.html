@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/cards.css">
 </head>
 <body>
 
@@ -15,17 +16,49 @@
         <div class="ui_container">
              <!-- black and white buttons -->
             <div class="container">
-                <button class="button-dark">See More</button>
-                <button class="button-light">See More</button>
+                <button class="button-dark" onclick="alert('hello im a button')">See More</button>
+                <button class="button-light" onclick="alert('hello im a button')">See More</button>
             </div>
 
             <div class="container">
 
-                <div id="container_1">
-                    
+                <!-- 1st card blog -->
+                <div id="card_blog_1">
+                    <div id="card_blog_1_image_container">
+                        <div id="white_rectangle"></div>
+                    </div>
+                    <div id="card_blog_1_description_container">
+                        
+                        <div id="card_blog_1_description_header">Special Feature</div>
+
+                        <div id="card_blog_1_description_see_more">See More <span id="chevron_right">&gt;</span></div>
+
+                    </div>
                 </div>
 
-                <div id="container_2"></div>
+                <!-- 2nd card blog -->
+                <div id="card_blog_2">
+                    
+                    <!-- circle image -->
+                    <div id="card_blog_2_image"></div>
+
+                    <section id="header_section">
+                        <span id="title_header">Title</span>
+                        <p>Subtitle</p>
+                    </section>
+                    <br>
+                    <section class="card_blog_2_nav_links">
+                        
+                        <p>Feature 1</p>
+                        <p>Feature 2</p>
+                        <p>Feature 3</p>
+                    </section>
+                    <br><br>
+                    <section>
+                        <button class="button-light mod1" onclick="alert('hello im a button')">Start Now</button>
+                    </section>
+
+                </div>
 
                 <div id="container_3"></div>
 
