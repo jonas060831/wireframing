@@ -52,3 +52,27 @@
     justify-content: center;
     align-items: center;
 }
+
+
+#nav_3_link_list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin-right: 2rem;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+#nav_4_link_list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin-right: 2rem;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    /* i cheated on this one i just used the padding of navbar here on line 8*/
+    margin-left: -2rem; 
+}
