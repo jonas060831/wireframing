@@ -1,12 +1,3 @@
-.ui_container_grid_column {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "sp_6_circles"
-        "sp_5_rectangles"
-        "sp_1_circle";
-}
-
 .ui_container_grid_column:first-child {
     background-color: red;
     grid-area: sp_6_circles
@@ -20,9 +11,6 @@
     grid-area: sp_1_circle
 }
 
-.social_proof {
-    color: black;
-}
 .sp_6_circles {
     background-color: #f2f2f2;
     width: auto;
@@ -44,11 +32,43 @@
     flex-direction: row;
     gap: 1rem;
 }
+
 .circle_item {
     height: 80px;
     width: 80px;
     background-color: black;
     border-radius: 100vw;
-    
-    
+}
+
+.sp_5_rectangles {
+    background-color: #f2f2f2;
+    height: 379px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.sp_5_rectangles span{
+    font-size: x-large;
+}
+
+.sp_5_rectangles p {
+    width: 459px;
+    text-align: center;
+}
+
+.rectangles_container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle_item {
+    width: 120px;
+    height: 40px;
+    background-color: black;
 }

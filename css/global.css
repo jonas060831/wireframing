@@ -49,3 +49,16 @@ body {
     gap: 3rem;
 
 }
+
+.ui_container_grid_column {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    color: black;
+    grid-row-gap: 1rem; /* https://www.shecodes.io/athena/39741-how-to-change-the-gap-between-one-specific-row-in-css-grid-layout#:~:text=in%205.61%20seconds-,To%20change%20the%20gap%20between%20only%20one%20specific%20row%20in,to%20specify%20the%20selected%20row.&text=This%20sets%20up%20a%20parent,20px%20between%20each%20of%20them. */
+    grid-template-areas: 
+        "sp_6_circles"
+        "sp_5_rectangles"
+        "sp_1_circle";
+}
+
