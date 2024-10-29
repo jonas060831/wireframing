@@ -1,0 +1,159 @@
+.featuresright {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "features_1"
+    "features_2"
+    "features_3";
+    background-color: white;
+    grid-row-gap: 1rem;
+}
+
+.features_1 {
+    display: grid;
+    background-color: #f2f2f2;
+    color: black;
+    grid-area: features_1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "image_container heading "; /* so just swap the left and the right*/
+    height: 600px;
+}
+
+.heading {
+    flex-direction: column;
+    text-align: left;
+    grid-area: heading;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading p {
+    width: 422px;
+}
+
+#fl_image_container { 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: image_container;
+}
+
+#fl_image_container .image { 
+    background-color: white;
+    width: 320px;
+    height: 360px;
+}
+
+
+.features_2 {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "image_container_2 heading_2";
+    height: 600px;
+    color: black;
+}
+#heading_2 {
+    display: flex;
+    align-items: center;
+    grid-area: heading_2;
+    justify-content: center;
+}
+.heading_2_container {
+    width: 412px;
+    height: 315px;
+    font-size: larger;
+}
+
+.heading_2_container ul > li {
+    margin: 2rem;
+    margin-left: -2.6rem;
+}
+
+
+.image_container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: image_container_2;
+}
+
+.image_2 {
+    width: 480px;
+    height: 360px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.features_3_right {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "fl_image_container_3 fl_heading_3_container ";
+    grid-area: features_3;
+    height: 600px;
+    color: black;
+}
+
+.fl_heading_3_container_right {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   grid-area: fl_heading_3_container;
+   /* background-color: red; */
+    
+}
+
+#fl_heading_3_right {
+    width: 470px;
+    height: 258px;
+}
+
+.fl_heading_p_gray {
+    color: grey;
+}
+
+.fl_header_avatar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#black_user_avatar {
+    width: 24px;
+    height: 24px;
+    background-color: black;   
+    border-radius: 100vw;
+}
+
+.fl_image_container_3_right {
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    grid-area: fl_image_container_3;
+}
+.fl_image_black_right {
+    width: 491px;
+    height: 286px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    margin-top: 23%;
+    margin-right: 20%;
+}
+
+.fl_image_white_right{
+    width: 491px;
+    height: 286px;
+    position: absolute;
+    background-color: white;
+    margin-top: 17%;
+    margin-left: 10%;
+}
