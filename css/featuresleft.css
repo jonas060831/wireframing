@@ -3,7 +3,8 @@
     grid-template-rows: 1fr;
     grid-template-areas:
     "features_1"
-    "feature_2";
+    "feature_2"
+    "features_3";
     background-color: white;
     grid-row-gap: 1rem;
 }
@@ -89,6 +90,59 @@
     background-color: #f2f2f2;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-area: features_3;
     height: 600px;
     color: black;
+}
+
+.fl_heading_3_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color: red; */
+    
+}
+
+#fl_heading_3 {
+    width: 470px;
+    height: 258px;
+}
+
+.fl_heading_p_gray {
+    color: grey;
+}
+
+.fl_header_avatar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#black_user_avatar {
+    width: 24px;
+    height: 24px;
+    background-color: black;   
+    border-radius: 100vw;
+}
+
+.fl_image_container_3 {
+    /* background-color: blue; */
+    position: relative;
+}
+.fl_image_black {
+    width: 491px;
+    height: 286px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    margin-top: 23%;
+}
+
+.fl_image_white{
+    width: 491px;
+    height: 286px;
+    position: absolute;
+    background-color: white;
+    margin-top: 17%;
+    margin-left: 10%;
 }
