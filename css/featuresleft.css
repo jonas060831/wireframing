@@ -4,6 +4,8 @@
     grid-template-areas:
     "features_1"
     "feature_2";
+    background-color: white;
+    grid-row-gap: 1rem;
 }
 
 .features_1 {
@@ -45,3 +47,48 @@
 }
 
 
+.features_2 {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    color: black;
+}
+#heading_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading_2_container {
+    width: 412px;
+    height: 315px;
+    font-size: larger;
+}
+
+.heading_2_container ul > li {
+    margin: 2rem;
+    margin-left: -2.6rem;
+}
+
+
+.image_container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_2 {
+    width: 480px;
+    height: 360px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.features_3 {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    color: black;
+}
