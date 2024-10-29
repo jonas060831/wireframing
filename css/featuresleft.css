@@ -1,0 +1,47 @@
+.featuresleft {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "features_1"
+    "feature_2";
+}
+
+.features_1 {
+    display: grid;
+    background-color: #f2f2f2;
+    color: black;
+    grid-area: features_1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "heading image_container";
+    height: 600px;
+}
+
+.heading {
+    flex-direction: column;
+    text-align: left;
+    grid-area: heading;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading p {
+    width: 422px;
+}
+
+#fl_image_container { 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: image_container;
+}
+
+#fl_image_container .image { 
+    background-color: white;
+    width: 320px;
+    height: 360px;
+}
+
+

@@ -9,9 +9,8 @@
     height: 60px;
     cursor: pointer;
 }
-
 .button-light {
-    background-color: var(--light-bg-color);
+    /* background-color: var(--light-bg-color); */
     color: var(--light-font-color);
     border-radius: 5px;
     font-size: 15px;
