@@ -72,3 +72,21 @@
     height: 40px;
     background-color: black;
 }
+
+.sp_1_circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    /* background-color: red; */
+    height: 400px;
+}
+
+.sp_1_circle div {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100vw;
+
+}
